@@ -9,24 +9,24 @@ import styles from './style';
     <ScrollView style={styles.container}>
       <View style={styles.header}>
         <Image
-          source={{ uri: 'https://i.pinimg.com/736x/80/21/39/80213968573e110cff7e0da1f1b65c9d.jpg' }}
+          source={{ uri: 'https://i.pinimg.com/736x/73/2b/43/732b430626ce1e8a27cbee43fc00b796.jpg' }}
           style={styles.coverPhoto}
         />
         <Image
-          source={{ uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfp3oFXy9Glol7BGtVYYPWtUrfLo5PU23vXw&s' }}
+          source={{ uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Adam_Silver.jpg/1200px-Adam_Silver.jpg' }}
           style={styles.profilePic}
         />
-        <Text style={styles.name}>ESCOLHA SEU INICIAL<Ionicons name="checkmark-circle" size={16} color="#3b82f6" /></Text>
+        <Text style={styles.name}>ESCOLHA SUA FRANQUIA<Ionicons name="checkmark-circle" size={16} color="#3b82f6" /></Text>
         <Text style={styles.followers}>SELECIONE UM ABAIXO</Text>
         <View style={styles.buttonsRow}>
           <TouchableOpacity style={styles.followButton} onPress = { () => props.navigation.navigate("Perfil1") }>
-            <Text style={styles.buttonText}>Bulbassauro</Text>
+            <Text style={styles.buttonText}>Minnesota Timberwolves</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.followButton} onPress = { () => props.navigation.navigate("Perfil2") }>
-            <Text style={styles.buttonText}>Charmander</Text>
+            <Text style={styles.buttonText}>Oklahoma City Thunder</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.searchButton} onPress = { () => props.navigation.navigate("Perfil3") }>
-            <Text style={styles.buttonText}>Squirtle</Text>
+            <Text style={styles.buttonText}>Boston Celtics</Text>
           </TouchableOpacity>
         </View>
       </View>
@@ -34,15 +34,9 @@ import styles from './style';
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>Apresentação</Text>
         <Text style={styles.bio}>
-        Professor Carvalho (Professor Oak, no original japonês) é um dos personagens mais icônicos do universo Pokémon. Ele é um renomado pesquisador Pokémon da cidade de Pallet (Vila Pallet), conhecido mundialmente por seus estudos pioneiros sobre a relação entre humanos e Pokémon.
-
-Carvalho é o primeiro mentor de muitos jovens treinadores, sendo o responsável por entregar seus primeiros Pokémon e Pokédex – uma enciclopédia digital que registra os Pokémon encontrados. Entre seus alunos mais famosos estão Ash Ketchum e Gary Carvalho (seu neto).
-
-Antes de se tornar um pesquisador, Carvalho também foi um treinador talentoso, conquistando respeito em batalhas Pokémon. Seu amor pela ciência e pelos Pokémon o levou a dedicar a vida à pesquisa, buscando catalogar todas as espécies e entender melhor seus comportamentos.
-
-Carismático, sábio e às vezes um pouco distraído, o Professor Carvalho é uma figura paterna no mundo Pokémon, incentivando novas gerações a explorar, estudar e respeitar as criaturas que compartilham o mundo com os humanos.
+        Os Playoffs da NBA são a fase decisiva da temporada, reunindo os 16 melhores times das Conferências Leste e Oeste em séries de melhor de sete jogos. Desde 2021, um torneio chamado Play-In define as últimas vagas. As disputas são intensas e cheias de rivalidades históricas, com grandes viradas e momentos lendários. Boston Celtics e Los Angeles Lakers lideram em títulos conquistados. Os Playoffs são considerados o ápice do basquete mundial, onde surgem os maiores heróis do esporte.
         </Text>
-        <Text style={styles.info}>Página • Professor</Text>
+        <Text style={styles.info}>Página • NBA</Text>
       </View>
     </ScrollView>
   );

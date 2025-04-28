@@ -9,40 +9,23 @@ import styles from './style';
     <ScrollView style={styles.container}>
       <View style={styles.header}>
         <Image
-          source={{ uri: 'https://i.redd.it/9mbkznasus491.png' }}
+          source={{ uri: 'https://i.pinimg.com/736x/5b/ed/ad/5bedadefb36a6f80dabfa0a9b2b973e2.jpg' }}
           style={styles.coverPhoto}
         />
         <Image
-          source={{ uri: 'https://pm1.aminoapps.com/6822/84e9b8f2e66e6529124f8b6f45a306be0f59b9cav2_00.jpg' }}
+          source={{ uri: 'https://i.pinimg.com/474x/10/88/3c/10883cc7ee48b49eecfaf63560a3d86f.jpg' }}
           style={styles.profilePic}
         />
-        <Text style={styles.name}>Bulbassauro <Ionicons name="checkmark-circle" size={16} color="#3b82f6" /></Text>
-        <Text style={styles.followers}>seguidores 93,1 mi • seguindo 2</Text>
-        <View style={styles.buttonsRow}>
-          <TouchableOpacity style={styles.followButton}>
-            <Text style={styles.buttonText}>Tipos:</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.followButton}>
-            <Text style={styles.buttonText}>Grama🍃</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.searchButton}>
-            <Text style={styles.buttonText}>Veneno🧪</Text>
-          </TouchableOpacity>
-        </View>
+        <Text style={styles.name}>Minnesota Timberwolves <Ionicons name="checkmark-circle" size={16} color="#3b82f6" /></Text>
+        <Text style={styles.followers}>seguidores 4,7 mi • seguindo 23</Text>
       </View>
 
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>Apresentação</Text>
         <Text style={styles.bio}>
-        Bulbassauro (Bulbasaur no original) é um Pokémon do tipo Planta e Venenoso, listado como o número #001 na Pokédex Nacional. Conhecido como o Pokémon Semente, Bulbassauro carrega uma semente nas costas desde o nascimento. Essa semente cresce gradualmente até florescer em sua forma evoluída.
-
-Bulbassauro é gentil, resistente e muito leal aos seus treinadores. Ele é uma das três opções de Pokémon iniciais disponíveis para novos treinadores na região de Kanto, ao lado de Charmander e Squirtle. Sua habilidade de utilizar movimentos tanto de Planta quanto de Veneno dá a ele uma vantagem estratégica nas batalhas.
-
-Com treinamento e carinho, Bulbassauro evolui para Ivysaur e depois para o majestoso Venusaur, tornando-se cada vez mais poderoso. Além da força física, Bulbassauro é conhecido por sua determinação e seu espírito protetor, frequentemente cuidando de outros Pokémon e amigos.
-
-Símbolo de crescimento, amizade e confiança, Bulbassauro é uma escolha clássica para treinadores que buscam um parceiro forte e cheio de coração para a jornada Pokémon.
+        O Minnesota Timberwolves está fazendo uma campanha histórica nos Playoffs da NBA, mostrando grande força nas séries eliminatórias. Liderados por Anthony Edwards, jovem estrela em ascensão, o time combina energia e talento em quadra. Com atuações decisivas, Edwards se destaca como um dos principais jogadores da pós-temporada. A equipe busca seu primeiro título da NBA, alimentando o sonho da torcida. Cada jogo dos Timberwolves tem sido uma demonstração de garra e evolução no cenário da liga.
         </Text>
-        <Text style={styles.info}>Página • Pokemon#001</Text>
+        <Text style={styles.info}>Página • Franquia</Text>
       </View>
     </ScrollView>
   );
